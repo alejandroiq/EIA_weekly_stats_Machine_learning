@@ -1,5 +1,6 @@
 # Modeling WTI Price Drivers from EIA WPSR Data
 ## By Alejandro Silva
+## Data: https://www.eia.gov/
 
 ## Overview
 This project analyzes 14 years of weekly petroleum market data from the U.S. Energy Information Administration’s (EIA) **Weekly Petroleum Status Report (WPSR)** 
