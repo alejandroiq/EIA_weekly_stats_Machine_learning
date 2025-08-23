@@ -56,19 +56,6 @@ Reproducibility & governance
   transformations are fit only on training folds and applied consistently at test time.
 • Linear models use StandardScaler (scaling is essential for Ridge/Lasso penalties).
 
-Current headline results (52-week holdout)
-------------------------------------------
-These are reference numbers from the current dataset snapshot.
-
-Naïve (AR):           MAE 2.18,  MAPE 0.03,  RMSE 2.73,  R² 0.795
-Naïve seasonal:       MAE 10.37, MAPE 0.15,  RMSE 12.37, R² –3.215
-Naïve blended:        MAE 5.64,  MAPE 0.081, RMSE 6.73,  R² –0.248
-OLS:                  MAE 9.39,  MAPE 0.136, RMSE 10.93, R² –2.219
-Ridge:                MAE 6.66,  MAPE 0.092, RMSE 8.51,  R² –0.949
-Lasso:                MAE 7.10,  MAPE 0.099, RMSE 8.88,  R² –1.125
-Random Forest:        MAE 11.53, MAPE 0.168, RMSE 12.93, R² –3.506
-XGBoost:              (optional, to be added)
-
 Interpretation & deliverables
 -----------------------------
 • Consistent driver ranking: U.S. total and Cushing crude inventories emerge as
